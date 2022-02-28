@@ -12,13 +12,71 @@ export const ListMenu = [
         url: "#",
     },
     {
-        title: "Product",
+        title: "Shop Product",
         submenu: [
             {
-                title: "Vegetables",
+                title: "Light",
+                submenu: [
+                    {
+                        title: "Bubls",
+                        url: "#",
+                    },
+                    {
+                        title: "Ballasts",
+                        url: "#",
+                    },
+                    {
+                        title: "Reflector FLUORESCENT LIGHTS",
+                        url: "#",
+                    },
+                    {
+                        title: "LED GROW LIGHTS",
+                        url: "#",
+                    },
+                    {
+                        title: "TIMERS",
+                        url: "#",
+                    },
+                    {
+                        title: "CONTROLLERS GROW LIGHT PARTS",
+                        url: "#",
+                    },
+                ],
             },
             {
-                title: "Equipment",
+                title: "Nutriens",
+                submenu: [
+                    {
+                        title: "ORGANIC NUTRIENTS",
+                        url: "#",
+                    },
+                    {
+                        title: "SYNTHETIC NUTRIENTS",
+                        url: "#",
+                    },
+                    {
+                        title: "FOLIAR SPRAYS",
+                        url: "#",
+                    },
+                    {
+                        title: "FISH BASED",
+                        url: "#",
+                    },
+                    {
+                        title: "MYCORRHIZAE",
+                        url: "#",
+                    },
+                    {
+                        title: "ROOT STIMULATORS",
+                        url: "#",
+                    },
+                ],
+            },
+            {
+                title: "Propagation",
+            },
+            {
+                title: "System",
             },
         ],
     },

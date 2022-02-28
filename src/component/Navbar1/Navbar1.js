@@ -1,8 +1,6 @@
 import React from "react";
 import "./Navbar1.scss";
 import { MenuItems, ListMenu } from "./MenuItems1";
-// import logo from "../../img/logo.png";
-// import { button1 } from "../Button/Button";
 
 const Navbar = () => {
     return (
@@ -10,13 +8,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg">
                 <div className="container">
                     <a className="navbar-brand" href="  ">
-                        <img
-                            className="img-fluid "
-                            width="100"
-                            height="24"
-                            // src={logo}
-                            alt=""
-                        />
+                        Arch <span> Kidtz</span>
                     </a>
                     <button
                         className="navbar-toggler"
