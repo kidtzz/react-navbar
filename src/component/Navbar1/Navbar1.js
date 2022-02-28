@@ -4,9 +4,9 @@ import { MenuItems, ListMenu } from "./MenuItems1";
 
 const Navbar = () => {
     return (
-        <div className="header-inner">
-            <nav className="navbar navbar-expand-lg">
-                <div className="container">
+        <div className="header-inner ">
+            <nav className="navbar1 navbar-expand-sm   ">
+                <div className="container d-flex">
                     <a className="navbar-brand" href="  ">
                         Arch <span> Kidtz</span>
                     </a>

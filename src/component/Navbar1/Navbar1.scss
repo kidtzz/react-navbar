@@ -5,14 +5,14 @@
     .navbar-expand-lg {
         height: 68px !important;
     }
-    .navbar {
+    .navbar1 {
         .nav-item > .nav-link {
             padding: 5px 20px !important;
             display: block !important;
         }
 
         .nav-link {
-            margin-bottom: -20px;
+            margin-bottom: -12px;
             color: #666666;
         }
 
@@ -21,7 +21,7 @@
             display: block;
             width: 0px;
             height: 2px;
-            margin-top: 21px;
+            margin-top: 12px;
             background: #3e6e0d;
             background: linear-gradient(
                 142deg,
@@ -55,7 +55,7 @@
 
 // MOBILE X PHONE
 @media only screen and (max-width: 992px) {
-    .navbar {
+    .navbar1 {
         .navbar-toggler:focus,
         .navbar-toggler:active,
         .navbar-toggler-icon:focus {
@@ -90,7 +90,7 @@ a {
 /* NAVBAR */
 
 .header-inner {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -113,10 +113,9 @@ a {
     .nav-item .nav-link:hover {
         color: black;
     }
-}
-
-.navbar .header-button {
-    margin-bottom: 20px;
+    .header-button {
+        margin-bottom: 20px;
+    }
 }
 
 // DROPDOWN
