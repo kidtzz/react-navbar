@@ -5,7 +5,7 @@ export const Content = () => {
     return (
         <div className="section-content">
             <div className="container ">
-                <marquee>Content by-kidtz</marquee>
+//                 <marquee>Content by-kidtz</marquee>
             </div>
         </div>
     );
